@@ -102,20 +102,41 @@ govern scope, severity classification, and reward eligibility.
 
 ## Scope
 
-This policy applies to all repositories managed by Burnt Labs, including the
-XION chain and its modules, smart contracts and the contract execution
-environment, SDKs and client libraries, and the services and applications we
-operate.
+This reporting process applies to all repositories and services managed by Burnt
+Labs. If you believe you have found a vulnerability in something we operate, we
+want to hear about it.
 
 Vulnerabilities in upstream dependencies — including CosmWasm, the Cosmos SDK,
 and IBC — should be reported to those projects directly.
 
+## Reward Eligibility
+
+**Only assets explicitly named in a published Burnt Labs bug bounty program are
+eligible for a reward.** Anything not named in a published program — including
+internal systems, private or unreleased codebases, staging and development
+infrastructure, and third-party services — carries no reward, regardless of the
+severity of the finding.
+
+This is a deliberate boundary. A bounty program is an invitation to test a
+specific, named set of assets. Systems we have not offered for testing sit
+outside that invitation.
+
+We still want to hear about genuine vulnerabilities in anything we operate, and
+we will investigate and fix them. Submitting an out-of-scope report in good
+faith will not be held against you — it simply does not create an entitlement to
+payment.
+
 ## Safe Harbor
 
-Burnt Labs will not pursue legal action against researchers who discover and
-report vulnerabilities in good faith under this policy, do not exploit beyond
-confirmation, do not access or disclose user data, and do not disrupt production
-systems. Good faith research within the scope of this policy is authorized.
+Burnt Labs will not pursue legal action against researchers who report
+vulnerabilities in good faith under this policy, do not exploit beyond what is
+necessary to confirm the finding, do not access or disclose user data, and do
+not disrupt production systems.
+
+**Authorization to actively test extends only to assets named in a published bug
+bounty program.** Testing systems outside that scope is not authorized under
+this policy. Reporting a vulnerability you encountered incidentally is always
+welcome.
 
 ## Recognition
 
