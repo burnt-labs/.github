@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and community support
+    url: https://discord.gg/burnt
+    about: Setup help, "how do I ...", and open-ended questions are answered fastest on Discord.
+  - name: Documentation
+    url: https://docs.burnt.com
+    about: Guides and reference documentation for XION and the Burnt Labs stack.
+  - name: Report a security vulnerability
+    url: https://github.com/burnt-labs/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Email security@burnt.com — see our security policy.

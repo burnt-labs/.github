@@ -1,0 +1,73 @@
+name: "Bug report"
+description: "Something isn't working as expected."
+title: "[Bug]: "
+labels: ["bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a report.
+
+        **Do not use this form for security vulnerabilities.** Email
+        [security@burnt.com](mailto:security@burnt.com) instead — see our
+        [security policy](https://github.com/burnt-labs/.github/blob/main/SECURITY.md).
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the bug. Screenshots and logs are welcome.
+      placeholder: A concise description of the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps to reproduce the issue.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See error ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: What actually happened.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "e.g. v1.2.3, or the commit SHA"
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "OS / browser / device / runtime (e.g. macOS 14.5, Chrome 129, Node 22.10.0)"
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched for an existing bug report.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true

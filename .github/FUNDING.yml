@@ -1,0 +1,21 @@
+# Organization-wide default funding configuration.
+#
+# Burnt Labs does not currently solicit sponsorship, so every platform is left
+# commented out and no "Sponsor" button is shown. Uncomment and fill in a value
+# only if that funding channel genuinely exists — an entry pointing at a
+# nonexistent account renders a broken button on every repository in the org.
+#
+# Repositories that need different values (for example forks that carry an
+# upstream maintainer's funding details) should keep their own
+# .github/FUNDING.yml, which overrides this default.
+
+# github: []
+# patreon:
+# open_collective:
+# ko_fi:
+# tidelift:
+# community_bridge:
+# liberapay:
+# issuehunt:
+# otechie:
+# custom: []
