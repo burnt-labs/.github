@@ -19,10 +19,10 @@ SDKs, smart contracts, and infrastructure around it.
 
 - **[xion](https://github.com/burnt-labs/xion)** — the XION chain daemon (`xiond`)
 - **[abstract-account](https://github.com/burnt-labs/abstract-account)** — the abstract account module and authenticator infrastructure
-- **[abstraxion](https://github.com/burnt-labs/abstraxion)** — client library for building on XION
+- **[xion.js](https://github.com/burnt-labs/xion.js)** — Abstraxion meta account client library monorepo
 - **[contracts](https://github.com/burnt-labs/contracts)** — core CosmWasm smart contracts
-- **[burnt-networks](https://github.com/burnt-labs/burnt-networks)** — reference configuration for all Burnt networks
-- **[chain-registry](https://github.com/burnt-labs/chain-registry)** — chain metadata and asset lists
+- **[barretenberg-go](https://github.com/burnt-labs/barretenberg-go)** — Go bindings for Barretenberg UltraHonk proof verification
+- **[xion-mainnet-1](https://github.com/burnt-labs/xion-mainnet-1)** and **[xion-testnet-2](https://github.com/burnt-labs/xion-testnet-2)** — reference network configuration
 
 ## Contributing
 
