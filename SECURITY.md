@@ -133,8 +133,8 @@ orientation and do not themselves define scope — the program documents govern.
 
 This is a deliberate boundary. A bounty program is an invitation to test a
 specific, named set of assets. Nothing is in scope by resemblance or by sharing
-a domain with something that is, and systems we have not offered for testing sit
-outside that invitation.
+a domain with an explicitly named in-scope asset, and systems we have not
+offered for testing sit outside that invitation.
 
 We still want to hear about genuine vulnerabilities in anything we operate, and
 we will investigate and fix them. Submitting an out-of-scope report in good
