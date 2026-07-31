@@ -22,7 +22,7 @@ organization-wide.
 | `.github/PULL_REQUEST_TEMPLATE.md`       | Every repo without its own PR template                            |
 | `.github/ISSUE_TEMPLATE/`                | Every repo without its own issue templates                        |
 | `.github/FUNDING.yml`                    | Every repo without its own funding config (all entries commented) |
-| `profile/README.md`                      | The [organization profile page](https://github.com/burnt-labs)     |
+| `profile/README.md`                      | The [organization profile page](https://github.com/burnt-labs)    |
 | `.github/CODEOWNERS`                     | **This repository only** — not inherited                          |
 
 ## What Is *Not* Inherited
@@ -39,7 +39,8 @@ covers a fixed list, and these are not on it:
 - **`LICENSE`.** GitHub does not support a default license file; every
   repository must carry its own.
 - **Repository settings**, branch protection, and rulesets. Those are managed as
-  organization rulesets — see `github_automation/rulesets`.
+  [organization rulesets](https://github.com/organizations/burnt-labs/settings/rules)
+  in org settings, not as files in any repository.
 
 ## Changing These Files
 
