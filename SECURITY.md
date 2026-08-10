@@ -131,10 +131,10 @@ canonical source for scope and terms:
 Every program names its assets explicitly. The summaries above are for
 orientation and do not themselves define scope — the program documents govern.
 
-This is a deliberate boundary. A bounty program is an invitation to test a
-specific, named set of assets. Nothing is in scope by resemblance or by sharing
-a domain with an explicitly named in-scope asset, and systems we have not
-offered for testing sit outside that invitation.
+This is a deliberate boundary. A bounty program names a specific set of assets
+that are eligible for rewards. Nothing is in scope by resemblance or by sharing
+a domain with an explicitly named in-scope asset. Reward eligibility does not
+itself authorize testing a production system.
 
 We still want to hear about genuine vulnerabilities in anything we operate, and
 we will investigate and fix them. Submitting an out-of-scope report in good
@@ -148,11 +148,12 @@ vulnerabilities in good faith under this policy, do not exploit beyond what is
 necessary to confirm the finding, do not access or disclose user data, and do
 not disrupt production systems.
 
-**Authorization to actively test extends only to assets explicitly named in a
-published bug bounty program.** Testing anything else is not authorized under
-this policy, and no asset becomes authorized by implication. If you are unsure
-whether something is covered, ask at
-[security@burnt.com](mailto:security@burnt.com) before you test it.
+**Naming a production asset establishes reward eligibility, not permission to
+test that production system.** Authorization to actively test extends only to
+testing endpoints explicitly named by the applicable program, local
+environments, and infrastructure you control. Nothing else is authorized by
+implication. If you are unsure whether a testing endpoint is explicitly named,
+ask at [security@burnt.com](mailto:security@burnt.com) before you test it.
 
 Reporting a vulnerability you encountered incidentally is always welcome, and
 carries no expectation that you were authorized to be there.
