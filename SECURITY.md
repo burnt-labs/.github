@@ -96,9 +96,7 @@ until a fix is developed and deployed. Specifically:
 | **MEDIUM**   | Impacts minor features or exposes non-sensitive data                         |
 | **LOW**      | Minimal impact or informational issues                                       |
 
-Severity is assessed by Burnt Labs based on demonstrated impact. Where a
-published bug bounty program covers the affected asset, that program's terms
-govern scope, severity classification, and reward eligibility.
+Severity is assessed by Burnt Labs based on demonstrated impact.
 
 ## Scope
 
@@ -109,29 +107,20 @@ want to hear about it.
 Vulnerabilities in upstream dependencies — including CosmWasm, the Cosmos SDK,
 and IBC — should be reported to those projects directly.
 
-## Reward Eligibility
+## Rewards
 
-**Only assets covered by a published Burnt Labs bug bounty program are eligible
-for a reward.** Anything no published program covers — including internal
-systems, private or unreleased codebases, staging and development
-infrastructure, and third-party services — carries no reward, regardless of the
-severity of the finding.
+**This default policy does not offer a bounty or reward.** Repositories and
+assets covered by a Burnt Labs bug bounty program publish their own
+`SECURITY.md` naming the program that applies to them. If a repository shows
+this default policy, it is not in the scope of any bounty program, and reports
+against it do not create an entitlement to payment — regardless of the severity
+of the finding.
 
-Programs are published at
+Published programs and their terms live at
 [burnt-labs/bug-bounty](https://github.com/burnt-labs/bug-bounty), which is the
-canonical source for scope and terms:
-
-| Program | Covers |
-| ------- | ------ |
-| Blockchain / DLT | The XION chain node, the custom Cosmos SDK modules, the forks the node builds against, the abstract account system, and the ZK proof verification bindings |
-| Core Protocol Contracts | The account and treasury contracts |
-| Applications and SDKs | Production applications operated by Burnt Labs, and the `xion.js` client SDK |
-| Websites | Informational and marketing web properties, at a lower tier |
-
-Each program defines its own scope. Most do so by naming assets individually;
-the Websites program instead covers a category of property, stating the
-conditions a property must meet. The summaries above are for orientation and do
-not themselves define scope — the program documents govern.
+canonical source for what is in scope. Where a published program covers the
+affected asset, that program's terms govern scope, severity classification, and
+reward eligibility.
 
 This is a deliberate boundary. A bounty program is an invitation to test a
 defined set of assets. Systems we have not offered for testing sit outside that
@@ -139,8 +128,7 @@ invitation.
 
 We still want to hear about genuine vulnerabilities in anything we operate, and
 we will investigate and fix them. Submitting an out-of-scope report in good
-faith will not be held against you — it simply does not create an entitlement to
-payment.
+faith will not be held against you — it simply is not rewarded.
 
 ## Safe Harbor
 
@@ -149,10 +137,10 @@ vulnerabilities in good faith under this policy, do not exploit beyond what is
 necessary to confirm the finding, do not access or disclose user data, and do
 not disrupt production systems.
 
-**Authorization to actively test extends only to assets covered by a published
-bug bounty program.** Testing systems outside that scope is not authorized under
-this policy. Reporting a vulnerability you encountered incidentally is always
-welcome.
+**This default policy does not itself authorize active testing.** Authorization
+to actively test is granted only by a published bug bounty program, for the
+assets that program covers. Reporting a vulnerability you encountered
+incidentally is always welcome.
 
 ## Recognition
 
