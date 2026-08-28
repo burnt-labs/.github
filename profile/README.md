@@ -10,8 +10,6 @@ chain is how it works.
 
 The protocol is a CosmWasm-enabled Cosmos SDK network with account abstraction
 built in — along with the SDKs, smart contracts, and infrastructure around it.
-On-chain identifiers (`xiond`, `uxion`, chain IDs) remain XION: a brand rename,
-not a new chain.
 
 ## Start Here
 
