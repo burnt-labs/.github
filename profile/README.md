@@ -13,11 +13,11 @@ built in — along with the SDKs, smart contracts, and infrastructure around it.
 
 ## Start Here
 
-|               |                                              |
-| ------------- | -------------------------------------------- |
-| **Docs**      | [docs.burnt.com](https://docs.burnt.com)     |
-| **Website**   | [burnt.com](https://burnt.com)               |
-| **Discord**   | [discord.gg/burnt](https://discord.gg/burnt) |
+|               |                                                |
+| ------------- | ---------------------------------------------- |
+| **Docs**      | [docs.verona.dev](https://docs.verona.dev/)    |
+| **Website**   | [burnt.com](https://burnt.com)                 |
+| **Discord**   | [discord.gg/verona](https://discord.gg/verona) |
 
 ## Notable Repositories
 
