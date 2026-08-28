@@ -23,7 +23,7 @@ not a new chain.
 
 ## Notable Repositories
 
-- **[xion](https://github.com/burnt-labs/xion)** — the Verona chain
+- **[xion](https://github.com/burnt-labs/xion)** — the Verona chain daemon (`xiond`)
 - **[abstract-account](https://github.com/burnt-labs/abstract-account)** — the abstract account module and authenticator infrastructure
 - **[xion.js](https://github.com/burnt-labs/xion.js)** — Abstraxion meta account client library monorepo
 - **[contracts](https://github.com/burnt-labs/contracts)** — core CosmWasm smart contracts
