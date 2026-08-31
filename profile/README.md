@@ -22,7 +22,6 @@ built in — along with the SDKs, smart contracts, and infrastructure around it.
 ## Notable Repositories
 
 - **[xion](https://github.com/burnt-labs/xion)** — the Verona chain daemon (`xiond`)
-- **[abstract-account](https://github.com/burnt-labs/abstract-account)** — the abstract account module and authenticator infrastructure
 - **[xion.js](https://github.com/burnt-labs/xion.js)** — Abstraxion meta account client library monorepo
 - **[contracts](https://github.com/burnt-labs/contracts)** — core CosmWasm smart contracts
 - **[barretenberg-go](https://github.com/burnt-labs/barretenberg-go)** — Go bindings for Barretenberg UltraHonk proof verification
