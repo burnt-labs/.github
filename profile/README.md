@@ -3,22 +3,25 @@
 It is our mission to advance society's financial and creative freedom, by any
 means necessary.
 
-We build [XION](https://github.com/burnt-labs/xion) — a CosmWasm-enabled Cosmos
-SDK layer 1 with account abstraction built into the protocol — along with the
-SDKs, smart contracts, and infrastructure around it.
+We build **Verona** — the intelligence layer for AI. Facts about the real world
+are proven once, owned by the user, and reusable by any agent they authorize,
+with the data underneath never exposed. Verona is a network and a layer; the
+chain is how it works.
+
+The protocol is a CosmWasm-enabled Cosmos SDK network with account abstraction
+built in — along with the SDKs, smart contracts, and infrastructure around it.
 
 ## Start Here
 
-|               |                                              |
-| ------------- | -------------------------------------------- |
-| **Docs**      | [docs.burnt.com](https://docs.burnt.com)     |
-| **Website**   | [burnt.com](https://burnt.com)               |
-| **Discord**   | [discord.gg/burnt](https://discord.gg/burnt) |
+|               |                                                |
+| ------------- | ---------------------------------------------- |
+| **Docs**      | [docs.verona.dev](https://docs.verona.dev/)    |
+| **Website**   | [burnt.com](https://burnt.com)                 |
+| **Discord**   | [discord.gg/verona](https://discord.gg/verona) |
 
 ## Notable Repositories
 
-- **[xion](https://github.com/burnt-labs/xion)** — the XION chain daemon (`xiond`)
-- **[abstract-account](https://github.com/burnt-labs/abstract-account)** — the abstract account module and authenticator infrastructure
+- **[xion](https://github.com/burnt-labs/xion)** — the Verona chain daemon (`xiond`)
 - **[xion.js](https://github.com/burnt-labs/xion.js)** — Abstraxion meta account client library monorepo
 - **[contracts](https://github.com/burnt-labs/contracts)** — core CosmWasm smart contracts
 - **[barretenberg-go](https://github.com/burnt-labs/barretenberg-go)** — Go bindings for Barretenberg UltraHonk proof verification
