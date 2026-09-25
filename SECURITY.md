@@ -111,13 +111,15 @@ and IBC — should be reported to those projects directly.
 
 ## Rewards
 
-**This default policy does not itself offer a bounty or reward.** A production
-asset is within bounty scope only when it is explicitly named in a published
-Burnt Labs bug bounty program. Final reward eligibility also depends on that
-program's severity, proof-of-concept, testing, KYC, duplicate, and other terms.
-A repository may publish a local `SECURITY.md` that summarizes the applicable
-terms, but the absence of a local file does not add or remove a production asset
-from a published program.
+**This default policy does not itself offer a bounty or reward.** An asset is
+within a published program's scope only when that program explicitly names it.
+Named testing endpoints authorize safe reproduction only; they are not separate
+reward-eligible assets. Final reward eligibility applies only to the production
+assets that a published program makes reward-eligible, and still depends on
+that program's severity, proof-of-concept, testing, KYC, duplicate, and other
+terms. A repository may publish a local `SECURITY.md` that summarizes the
+applicable terms, but the absence of a local file does not add or remove an
+asset from a published program.
 
 Published programs and their terms live at
 [burnt-labs/bug-bounty](https://github.com/burnt-labs/bug-bounty), which is the
