@@ -111,12 +111,13 @@ and IBC — should be reported to those projects directly.
 
 ## Rewards
 
-**This default policy does not itself offer a bounty or reward.** Bounty
-eligibility is determined exclusively by whether the affected asset is
-explicitly named in a published Burnt Labs bug bounty program. A repository may
-publish a local `SECURITY.md` that summarizes the applicable terms, but the
-absence of a local file does not add or remove an asset from a published
-program.
+**This default policy does not itself offer a bounty or reward.** A production
+asset is within bounty scope only when it is explicitly named in a published
+Burnt Labs bug bounty program. Final reward eligibility also depends on that
+program's severity, proof-of-concept, testing, KYC, duplicate, and other terms.
+A repository may publish a local `SECURITY.md` that summarizes the applicable
+terms, but the absence of a local file does not add or remove a production asset
+from a published program.
 
 Published programs and their terms live at
 [burnt-labs/bug-bounty](https://github.com/burnt-labs/bug-bounty), which is the
@@ -141,10 +142,11 @@ not disrupt production systems.
 
 **This default policy does not itself authorize active testing.** Authorization
 to actively test is granted only by a published bug bounty program, and only for
-the exact testing endpoints or researcher-controlled environments that program
-names. Naming a production asset can establish reward eligibility without
-authorizing active testing against that production system. Reporting a
-vulnerability you encountered incidentally is always welcome.
+the exact testing endpoints it names or the environment classes it expressly
+permits, such as a local instance or researcher-controlled infrastructure.
+Naming a production asset can establish reward eligibility without authorizing
+active testing against that production system. Reporting a vulnerability you
+encountered incidentally is always welcome.
 
 ## Recognition
 
