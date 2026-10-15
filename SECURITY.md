@@ -68,8 +68,10 @@ exploitability is not actionable.
    details and credit
 
 Active exploitation, or confirmed attacker awareness of an unpatched
-vulnerability, escalates the issue to Critical handling regardless of its
-original classification.
+vulnerability, escalates the issue to Critical **response handling** —
+prioritization, coordination, and disclosure timing — regardless of its
+original classification. That escalation does not change the finding's
+severity assessment or reward eligibility.
 
 Where an issue requires a network upgrade, additional time may be needed to
 raise a governance proposal and complete the upgrade.
@@ -109,12 +111,15 @@ and IBC — should be reported to those projects directly.
 
 ## Rewards
 
-**This default policy does not offer a bounty or reward.** Repositories and
-assets covered by a Burnt Labs bug bounty program publish their own
-`SECURITY.md` naming the program that applies to them. If a repository shows
-this default policy, it is not in the scope of any bounty program, and reports
-against it do not create an entitlement to payment — regardless of the severity
-of the finding.
+**This default policy does not itself offer a bounty or reward.** An asset is
+within a published program's scope only when that program explicitly names it.
+Named testing endpoints authorize safe reproduction only; they are not separate
+reward-eligible assets. Final reward eligibility applies only to the production
+assets that a published program makes reward-eligible, and still depends on
+that program's severity, proof-of-concept, testing, KYC, duplicate, and other
+terms. A repository may publish a local `SECURITY.md` that summarizes the
+applicable terms, but the absence of a local file does not add or remove an
+asset from a published program.
 
 Published programs and their terms live at
 [burnt-labs/bug-bounty](https://github.com/burnt-labs/bug-bounty), which is the
@@ -138,9 +143,12 @@ necessary to confirm the finding, do not access or disclose user data, and do
 not disrupt production systems.
 
 **This default policy does not itself authorize active testing.** Authorization
-to actively test is granted only by a published bug bounty program, for the
-assets that program covers. Reporting a vulnerability you encountered
-incidentally is always welcome.
+to actively test is granted only by a published bug bounty program, and only for
+the exact testing endpoints it names or the environment classes it expressly
+permits, such as a local instance or researcher-controlled infrastructure.
+Naming a production asset can establish reward eligibility without authorizing
+active testing against that production system. Reporting a vulnerability you
+encountered incidentally is always welcome.
 
 ## Recognition
 
