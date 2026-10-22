@@ -5,9 +5,8 @@ impact Burnt Labs software and the XION network. If you have discovered a
 security vulnerability in any repository managed by Burnt Labs, we encourage you
 to report it using the process below.
 
-We take all security reports seriously. If a report is confirmed upon
-investigation, we will patch the issue within a reasonable amount of time and
-publish a security bulletin describing the impact and crediting the discoverer.
+**The Burnt Labs bug bounty program is currently paused.** We welcome
+submissions, but we will not respond to them and will not pay rewards.
 
 > This is the organization-wide default policy. Individual repositories may
 > publish their own `SECURITY.md`, which takes precedence for that repository.
@@ -53,28 +52,10 @@ For findings in web properties, include screenshots or a video walkthrough
 showing end-to-end exploitation. Automated scanner output without demonstrated
 exploitability is not actionable.
 
-## Response Process
+## Response
 
-1. **Acknowledgment** — we acknowledge receipt within **5 business days**
-2. **Triage** — we provide a triage decision within **14 days**
-3. **Investigation** — our security team confirms the vulnerability and assesses
-   severity
-4. **Fix development** — we develop and test a fix privately
-5. **Coordination** — for critical issues we coordinate with affected parties and
-   upstream projects through their non-public channels before public disclosure
-6. **Community notification** — we notify the community that a security release
-   is coming, so users, validators, and integrators can prepare
-7. **Public disclosure** — after a fix is deployed we publish a bulletin with
-   details and credit
-
-Active exploitation, or confirmed attacker awareness of an unpatched
-vulnerability, escalates the issue to Critical **response handling** —
-prioritization, coordination, and disclosure timing — regardless of its
-original classification. That escalation does not change the finding's
-severity assessment or reward eligibility.
-
-Where an issue requires a network upgrade, additional time may be needed to
-raise a governance proposal and complete the upgrade.
+While the bug bounty program is paused we do not respond to submissions, and we
+make no commitment to any acknowledgment, triage, or disclosure timeline.
 
 ## Responsible Disclosure
 
@@ -111,29 +92,26 @@ and IBC — should be reported to those projects directly.
 
 ## Rewards
 
-**This default policy does not itself offer a bounty or reward.** An asset is
-within a published program's scope only when that program explicitly names it.
-Named testing endpoints authorize safe reproduction only; they are not separate
-reward-eligible assets. Final reward eligibility applies only to the production
-assets that a published program makes reward-eligible, and still depends on
-that program's severity, proof-of-concept, testing, KYC, duplicate, and other
-terms. A repository may publish a local `SECURITY.md` that summarizes the
-applicable terms, but the absence of a local file does not add or remove an
-asset from a published program.
+**No rewards are paid while the bug bounty program is paused.** Submitting a
+report does not entitle you to a bounty or any other payment.
+
+An asset is within a published program's scope only when that program
+explicitly names it. Named testing endpoints authorize safe reproduction only;
+they are not separate assets. A repository may publish a local `SECURITY.md`
+that summarizes the applicable terms, but the absence of a local file does not
+add or remove an asset from a published program.
 
 Published programs and their terms live at
 [burnt-labs/bug-bounty](https://github.com/burnt-labs/bug-bounty), which is the
 canonical source for what is in scope. Where a published program covers the
-affected asset, that program's terms govern scope, severity classification, and
-reward eligibility.
+affected asset, that program's terms govern scope and severity classification.
 
 This is a deliberate boundary. A bounty program is an invitation to test a
 defined set of assets. Systems we have not offered for testing sit outside that
 invitation.
 
-We still want to hear about genuine vulnerabilities in anything we operate, and
-we will investigate and fix them. Submitting an out-of-scope report in good
-faith will not be held against you — it simply is not rewarded.
+We still want to hear about genuine vulnerabilities in anything we operate.
+Submitting an out-of-scope report in good faith will not be held against you.
 
 ## Safe Harbor
 
@@ -146,12 +124,11 @@ not disrupt production systems.
 to actively test is granted only by a published bug bounty program, and only for
 the exact testing endpoints it names or the environment classes it expressly
 permits, such as a local instance or researcher-controlled infrastructure.
-Naming a production asset can establish reward eligibility without authorizing
+Naming a production asset can bring it into scope without authorizing
 active testing against that production system. Reporting a vulnerability you
 encountered incidentally is always welcome.
 
 ## Recognition
 
-We appreciate responsible disclosure and will credit researchers who help us
-improve our security. Recognition is included in our security bulletins and may
-be featured in our communications.
+If we publish a security bulletin or advisory for a finding, we may credit the
+researcher who reported it.
